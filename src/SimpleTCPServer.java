@@ -12,6 +12,7 @@ public class SimpleTCPServer {
             while(true) {
 
                 System.out.println("Server is listening on port 8000");
+                System.out.println("...");
 
                 Socket socket = serverSocket.accept();
                 System.out.println("Client connected");
